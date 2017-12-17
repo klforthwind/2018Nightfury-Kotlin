@@ -12,7 +12,7 @@ open class BaseSubsystem : Subsystem(){
 	override fun initDefaultCommand() {
 	}
 	
-	override fun setDefaultCommand(command : Command) {
+	override public fun setDefaultCommand(command : Command) {
 		super.setDefaultCommand(command);
 	}
 }
